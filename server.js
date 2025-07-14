@@ -6,7 +6,7 @@ app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 app.get('/hello', (req, res) => {
-    console.log("hello world code!");
+    //  deleted one line from here 
   res.send('Hello World!')
 })
 // this is a commented line to check github repo
